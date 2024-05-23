@@ -1,0 +1,124 @@
+
+.Title {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1{
+    font-family: "Ubuntu Sans", sans-serif;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.topnav a{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: #8af0ff;
+    color: #000000;
+}
+
+.topnav a.active{
+    background-color: #8af0ff;
+    color: #000000;
+}
+
+.centerPart{ 
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0 auto; 
+    white-space: normal;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.centerImages {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    white-space: normal;
+}
+
+.sideImage {
+    max-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sideText{ 
+    max-width: 60%
+}
+
+.footer{
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+
+    bottom: 0;
+}
+
+.game-container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    width: 60%;
+    height: 600px;
+    border: none;
+}
+
+
+
+.spotifyContainer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pdfContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SPP{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.sppEssayPdf{
+    flex: 1;
+    margin-left: 20px;
+}
+
